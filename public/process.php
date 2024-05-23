@@ -20,8 +20,8 @@
                 break;
 
             case 'ANAGRAM':
-                $word1 = $_POST['word1'];
-                $word2 = $_POST['word2'];
+                $word1 = strtoupper($_POST['word1']);
+                $word2 = strtoupper($_POST['word2']);
                 $anagram = new Anagram();
 
                 echo sprintf(

@@ -127,6 +127,7 @@ body {
     color: #fff;
     padding: 0 2rem;
     font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .input-box input[type=submit] {
