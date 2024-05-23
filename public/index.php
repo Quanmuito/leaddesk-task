@@ -5,30 +5,29 @@
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="" />
+        <!-- Open Graph meta data -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="LeadDesk Tasks" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="LeadDesk Tasks" />
 
-    <!-- Open Graph meta data -->
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="LeadDesk Tasks" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="LeadDesk Tasks" />
+        <!-- Links -->
+        <link rel="icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="logo.png" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="style.css">
 
-    <!-- Links -->
-    <link rel="icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="logo.png" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="style.css">
-
-    <title>LeadDesk Tasks</title>
-</head>
+        <title>LeadDesk Tasks</title>
+    </head>
 
     <body>
         <div class="App">
