@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace LeadDeskTasks;
 
+/** PHP version 8.3.7 */
 final class Anagram implements AnagramInterface
 {
     /**

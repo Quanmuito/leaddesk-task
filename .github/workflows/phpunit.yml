@@ -22,5 +22,8 @@ jobs:
     - name: Install dependencies
       run: composer install
 
+    - name: Generate autoload files
+      run: composer dump-autoload
+
     - name: Run tests
       run: vendor/bin/phpunit
