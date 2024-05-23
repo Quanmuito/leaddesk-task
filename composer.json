@@ -1,0 +1,24 @@
+{
+    "name": "quanmuito/lead-desk-tasks",
+    "type": "project",
+    "authors": [{
+        "name": "quanmuito",
+        "email": "tranleminhquan1102@gmail.com"
+    }],
+    "require": {
+        "php": "8.3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeadDeskTasks\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

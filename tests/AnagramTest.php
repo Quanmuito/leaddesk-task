@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Tests;
+
+use PHPUnit\Framework\TestCase;
+use LeadDeskTasks\Anagram;
+
+class AnagramTest extends TestCase
+{
+    const ANAGRAM_TEST_CASES = [
+        ['BOTH', 'HOT', false],
+        ['ANAGRAM', 'NAGARAM', true],
+        ['RAT', 'CAR', false],
+        ['ATDKIVXSMFIJRKZHKEJUEOXDHZRNBVWGQVECRHLZLNLODFGHKQYTUQSYFDUZJVVPXPXLUZXTKMDLHUTVDTUKLFSANSX', 'JMSOXHVQLEVFDHHEUCJLTOIZHXLUATFGKZDBEHLDDVNTQPGASQZNUDFXUTULVKZRXRKZMSFKYWYVVNPIDXJKLXTURKS', true],
+        ['XRSJUYNFLWZCYEFGNQOOWZBJFAGKTBJCMJRIYPODDUBBNSIZGILPAGMEXCMWQSSRRNANBSPQGZGPPCJFRPMZWIWTJNUBJM', 'JWGJNDFRJNARYPGGJQWZOIBNRPCSNBECMIIWAUREGUBSNYOKMYLFWGBAQCSLIPUNZFCFMBTXJJWXQRZZMMGPZSOTJSPBPD', true],
+        ['BVOCZUALGNSKTWMFIVBZTAOVHJMDJQKPYUHLYAIGRPZHFNEMEPAQKHIJJAYBJJZWSXGJMSDOHYSJBXQZKJGNTINITK', 'VOCZUALGSKTWMFIVBZTAOVHJMDJQKPYUHLYAIGRPZHFNEMEPAQKHIJJAYBJJZWSXGJMSDOHYSJBXQZKJGNTINITK', false],
+    ];
+
+    public function testContiguous()
+    {
+        $anagram = new Anagram();
+
+        foreach (self::ANAGRAM_TEST_CASES as $testCase) {
+            $word1 = $testCase[0];
+            $word2 = $testCase[1];
+            $expected = $testCase[2];
+            $this->assertSame($expected,  $anagram->isAnagram($word1, $word2));
+        }
+    }
+}
