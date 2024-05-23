@@ -25,11 +25,20 @@ jobs:
     - name: Generate autoload files
       run: composer dump-autoload
 
-    - name: List directory contents
+    - name: List project files
       run: ls -R
 
     - name: Show autoload files
       run: cat vendor/composer/autoload_psr4.php
+
+    - name: Show MaxSubArrayInterface
+      run: cat src/MaxSubArrayInterface.php
+
+    - name: Show MaxSubArray
+      run: cat src/MaxSubArray.php
+
+    - name: Show MaxSubArrayTest
+      run: cat tests/MaxSubArrayTest.php
 
     - name: Run tests
       run: vendor/bin/phpunit

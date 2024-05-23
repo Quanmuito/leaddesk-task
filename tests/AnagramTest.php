@@ -18,7 +18,7 @@ class AnagramTest extends TestCase
         ['BVOCZUALGNSKTWMFIVBZTAOVHJMDJQKPYUHLYAIGRPZHFNEMEPAQKHIJJAYBJJZWSXGJMSDOHYSJBXQZKJGNTINITK', 'VOCZUALGSKTWMFIVBZTAOVHJMDJQKPYUHLYAIGRPZHFNEMEPAQKHIJJAYBJJZWSXGJMSDOHYSJBXQZKJGNTINITK', false],
     ];
 
-    public function testContiguous()
+    public function testIsAnagram()
     {
         $anagram = new Anagram();
 
