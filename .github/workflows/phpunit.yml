@@ -25,5 +25,11 @@ jobs:
     - name: Generate autoload files
       run: composer dump-autoload
 
+    - name: List directory contents
+      run: ls -R
+
+    - name: Show autoload files
+      run: cat vendor/composer/autoload_psr4.php
+
     - name: Run tests
       run: vendor/bin/phpunit
