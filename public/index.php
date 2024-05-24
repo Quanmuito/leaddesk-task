@@ -11,11 +11,11 @@
         <!-- Open Graph meta data -->
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="LeadDesk Tasks" />
+        <meta property="og:title" content="LeadDesk Assignment" />
         <meta property="og:description" content="" />
         <meta property="og:image" content="" />
         <meta property="og:url" content="" />
-        <meta property="og:site_name" content="LeadDesk Tasks" />
+        <meta property="og:site_name" content="LeadDesk Assignment" />
 
         <!-- Links -->
         <link rel="icon" href="favicon.ico" />
@@ -23,7 +23,7 @@
         <link rel="manifest" href="manifest.json" />
         <link rel="stylesheet" href="style.css">
 
-        <title>LeadDesk Tasks</title>
+        <title>LeadDesk Assignment</title>
     </head>
 
     <body>

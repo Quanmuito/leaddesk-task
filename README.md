@@ -43,6 +43,12 @@ The project contains 2 problems:
 1. MaxSubArray: Subarray is a part of the original one dimensional array. Given an array, find out the maximum sum that can be calculated by taking contiguous part (including at least one element) of the original array.
 2. Anagram: An anagram is direct word switch or word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once.
 
+Project structure:
+- .github: Github workflows
+- public: static files for UI.
+- src: problems and solutions
+- tests: test files for all solutions.
+
 Key features: Solution for the 2 problems, unit tests,CI workflow using Github Action.
 A simple UI is added for interactive testing.
 
@@ -82,14 +88,14 @@ A simple UI is added for interactive testing.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-#### Automated test
+### Automated test
 - Automated test file can be found in `tests` directory.
 - To run all test suites, open a terminal and run command
     ```sh
     php vendor/bin/phpunit
     ```
 
-#### Interactive test
+### Interactive test
 - Change directory to `public` folder
     ```sh
     cd public

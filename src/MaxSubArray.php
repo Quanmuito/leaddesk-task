@@ -28,12 +28,12 @@ final class MaxSubArray implements MaxSubArrayInterface
      */
     public function contiguous(array $array): int
     {
-        if (count($array) === 1) {
-            return is_numeric($array[0]) ? (int)$array[0] : 0;
-        }
-
         $subArraySum = (int)'-1e6';
         $maxSum = self::getFirstNumericElement($array);
+
+        if (count($array) === 1) {
+            return $maxSum;
+        }
 
         foreach ($array as $value) {
             // Start a new subarray if encounter non-numeric element
