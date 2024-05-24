@@ -5,6 +5,7 @@
 </div>
 
 
+<br/>
 <!-- TABLE OF CONTENTS -->
 <details>
     <summary>Table of Contents</summary>
@@ -34,6 +35,7 @@
 </details>
 
 
+<br/>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -57,6 +59,7 @@ A simple UI is added for interactive testing.
 [![PHP][PHP]][PHP-url] [![PHPUnit][PHPUnit]][PHPUnit-url] [![Composer][Composer]][Composer-url] [![GitHubActions][GitHubActions]][GitHubActions-url]
 
 
+<br/>
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Prerequisites
@@ -80,6 +83,7 @@ A simple UI is added for interactive testing.
     ```
 
 
+<br/>
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### Automated test
@@ -103,6 +107,7 @@ A simple UI is added for interactive testing.
 - Open a browser, go to [http://localhost:8000/](http://localhost:8000/)
 
 
+<br/>
 <!-- CONTACT -->
 ## Contact
 
