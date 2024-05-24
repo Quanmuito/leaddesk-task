@@ -1,7 +1,7 @@
 <br />
 <div align="center">
-    <h3 align="center"><a href="https://leaddesk.com/fi/">LeadDesk</a> Technical Assignment</h3>
-    <p align="center">Quan Tran - Software Engineer</p>
+    <h1 align="center"><a href="https://leaddesk.com/fi/">LeadDesk</a> Technical Assignment</h1>
+    <h3 align="center">Quan Tran - Software Engineer</h3>
 </div>
 
 
