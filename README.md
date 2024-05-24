@@ -76,7 +76,7 @@ A simple UI is added for interactive testing.
 
 3. Install packages with composer
     ```sh
-    conposer install
+    composer install
     ```
 
 
