@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![LeadDesk Tasks Screen Shot][product-screenshot]](https://projectpictures2024.s3.eu-north-1.amazonaws.com/leaddesktaskscr.png)
+![image](https://projectpictures2024.s3.eu-north-1.amazonaws.com/leaddesktaskscr.png)
 
 The project contains 2 problems:
 1. MaxSubArray: Subarray is a part of the original one dimensional array. Given an array, find out the maximum sum that can be calculated by taking contiguous part (including at least one element) of the original array.
