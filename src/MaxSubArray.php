@@ -36,13 +36,13 @@ final class MaxSubArray implements MaxSubArrayInterface
         }
 
         foreach ($array as $value) {
-            // Start a new subarray if encounter non-numeric element
+            # Start a new subarray if encounter non-numeric element
             if (!is_numeric($value)) {
                 $subArraySum = (int)'-1e6';
                 continue;
             }
 
-            // Update sum of subarray. If total of previous elements is negative and smaller than current element, start a new subarray.
+            # Update sum of subarray. If total of previous elements is negative and smaller than current element, start a new subarray.
             $subArraySum = max($subArraySum + (int)$value, (int)$value);
             # Update maximum sum of subarray
             $maxSum = max($maxSum, $subArraySum);

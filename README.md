@@ -37,8 +37,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image](https://projectpictures2024.s3.eu-north-1.amazonaws.com/leaddesktaskscr.png)
-
 The project contains 2 problems:
 1. MaxSubArray: Subarray is a part of the original one dimensional array. Given an array, find out the maximum sum that can be calculated by taking contiguous part (including at least one element) of the original array.
 2. Anagram: An anagram is direct word switch or word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once.
@@ -52,13 +50,11 @@ Project structure:
 Key features: Solution for the 2 problems, unit tests,CI workflow using Github Action.
 A simple UI is added for interactive testing.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![image](https://projectpictures2024.s3.eu-north-1.amazonaws.com/leaddesktaskscr.png)
 
 ### Built With
 
 [![PHP][PHP]][PHP-url] [![PHPUnit][PHPUnit]][PHPUnit-url] [![Composer][Composer]][Composer-url] [![GitHubActions][GitHubActions]][GitHubActions-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -83,8 +79,6 @@ A simple UI is added for interactive testing.
     conposer install
     ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -108,8 +102,6 @@ A simple UI is added for interactive testing.
 
 - Open a browser, go to [http://localhost:8000/](http://localhost:8000/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -121,10 +113,8 @@ Quan Tran (Mr)
 
 Project Link: [https://github.com/quanmuito/leaddesk-task](https://github.com/quanmuito/leaddesk-task)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- MARKDOWN BADGES -->
 [PHP]: https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white
 [PHP-url]: https://www.php.net/
 [PHPUnit]: https://img.shields.io/badge/phpunit-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white
