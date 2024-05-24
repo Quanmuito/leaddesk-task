@@ -1,6 +1,4 @@
-<?php
-    declare(strict_types=1);
-?>
+<?php declare(strict_types=1) ?>
 
 <!DOCTYPE html>
 <html>
@@ -69,8 +67,8 @@
                                 <p id="anagramResult"></p>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
                 <div class="img-container">
                     <img src="https://leaddesk.com/wp-content/themes/LeadDesk/images/templates/page-home-2022/hero_2023_logo.png">
                 </div>
